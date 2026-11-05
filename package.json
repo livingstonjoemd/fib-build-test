@@ -4,6 +4,15 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node -e \"console.log('fib build ok')\""
+    "build": "vite build"
+  },
+  "dependencies": {
+    "lucide-react": "^0.546.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
   }
 }
